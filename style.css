@@ -21,10 +21,6 @@ button {
     /* #2 #font capital #letters */
 }
 
-strong,button {
-    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
-    text-transform: uppercase;
-}
 
 
 /*App bar*/
@@ -128,4 +124,9 @@ div{
 
 .own{
     margin-left: 17.5%;
+}
+
+strong,button {
+    /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+    text-transform: uppercase;
 }
