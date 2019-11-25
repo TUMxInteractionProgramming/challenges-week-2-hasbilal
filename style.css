@@ -1,0 +1,127 @@
+/*Global*/
+*{
+    /* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+
+}
+
+
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+}
+
+
+
+/*App bar*/
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+/*Channels list*/
+
+ul {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    list-style-type: none;
+}
+
+ul li{
+    padding: 16px;
+    font-size: 16px;
+    border-bottom: 1px solid #F5F5F5 ;
+}
+
+ul img{
+    vertical-align: middle;
+}
+
+ul .selected{
+    border-left: 4px solid #3F51B5;
+}
+
+div{
+    /* #colorful # buttonchat*/
+    background-color: white;
+}
+
+/*Tab bar*/
+
+
+
+#new-button,#trending-button,#favorites-button{
+      /* #colorful # buttonchat*/
+   background-color: white;
+   text-align: center;
+   border: none;
+   font-size: 13px;
+   width: 33%;
+   height: 72px;
+   padding:16px;
+}
+
+#new-button img,#trending-button img,#favorites-button img{
+    display: block;
+    margin: 0px auto 4px auto;
+}
+
+#tab-bar .selected{
+    border-bottom: 4px solid #3F51B5;
+}
+
+
+/*Messages*/
+.message{
+    /*Message container */
+    width: 80%;
+    margin-bottom: 8px;
+}
+
+.message h3{
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+.message h3  a{
+    color: black;
+}
+
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
+
+.message button{
+    /*Message button*/
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+
+.message h3 em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+.message{
+    margin-left: 2.5%;
+}
+
+.own{
+    margin-left: 17.5%;
+}
